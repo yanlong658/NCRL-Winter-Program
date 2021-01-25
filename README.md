@@ -8,6 +8,11 @@ Problem 1. Please use the IMU to integrate the path.
 2. 了解程式run的流程
 3. 會看ros document.
 
+注意：
+1. IMU是在body frame上
+2. paper公式(36)(37)是將angular velocity轉變成一個B matrix
+3. paper公式(41)是將旋轉矩陣從k時刻變成k+1時間,
+
 ## Day 2 camera motion
 Problem 1. Use the ros and matlab to calibrate the camera of intrinsic parameter.
 
