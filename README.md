@@ -25,8 +25,11 @@ Problem 1. Please guess the initial transformation. Make icp-match would be bett
 Probem 2. Tell me that the rotation is world frame transformation or body frame transformation.
 
 講解重點：
-1. 程式run的流程
+1. 講解icp
 2. 會看pcl document.
+
+注意：
+1. 安裝pcl,pcl版本要1.8.1以上的版本,使用VM會掛掉
 
 ## Day 4 Use Ceres
 Problem 1. Please use the Gauss-Newton to find the global minima.
@@ -35,7 +38,7 @@ Problem 1. Please use the Gauss-Newton to find the global minima.
 1. 會使用Ceres library
 2. 推導出Jacobian matrix
 
-## Day 5 Progec
+## Day 5 Progess
 
 講解重點
 1. 無人車的安裝
