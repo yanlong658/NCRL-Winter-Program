@@ -36,3 +36,6 @@ include_directories(
 
 add_executable(icpmatch src/icpmatch.cpp)
 target_link_libraries(icpmatch ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${CERES_LIBRARIES})
+
+add_executable(initialicpmatch src/initialicpmatch.cpp)
+target_link_libraries(initialicpmatch ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${CERES_LIBRARIES})
